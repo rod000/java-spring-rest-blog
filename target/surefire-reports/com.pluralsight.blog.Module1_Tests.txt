@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.blog.Module1_Tests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 9.483 s <<< FAILURE! - in com.pluralsight.blog.Module1_Tests
+task_1(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.812 s  <<< FAILURE!
+java.lang.AssertionError: Task 1: `PostRepository` should extend 1 interface - `JpaRepository`. expected:<1> but was:<0>
+	at com.pluralsight.blog.Module1_Tests.task_1(Module1_Tests.java:73)
+
+task_2(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Task 2: A field called `postRepository` of type `PostRepository` does not exist in `DatabaseLoader`.
+	at com.pluralsight.blog.Module1_Tests.task_2(Module1_Tests.java:94)
+
+task_3(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.AssertionError: Task 3: Did not call the `PostRepository` `saveAll()` in the `DatabaseLoader` `run()` method.
+	at com.pluralsight.blog.Module1_Tests.task_3(Module1_Tests.java:140)
+
+task_4(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Task 4: The `application.properties` file doesn't contain `spring.data.rest.default-page-size=8`.
+	at com.pluralsight.blog.Module1_Tests.task_4(Module1_Tests.java:157)
+
+task_5(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Task 5: The method `findByTitleContaining()` doesn't exist in the `PostRepository` class.
+	at com.pluralsight.blog.Module1_Tests.task_5(Module1_Tests.java:169)
+
+task_6(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Task 6: The method `findByTitleContaining()` doesn't exist in the `PostRepository` class.
+	at com.pluralsight.blog.Module1_Tests.task_6(Module1_Tests.java:181)
+

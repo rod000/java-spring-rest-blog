@@ -1,0 +1,9 @@
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/data/PostRepository.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/data/AuthorRepository.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/config/WebSecurityConfig.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/BlogApplication.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/testing/TransactionFilter.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/config/RestConfig.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/data/DatabaseLoader.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/model/Post.java
+/home/cyph3r/Documents/LAO/java-spring-rest-blog/src/main/java/com/pluralsight/blog/model/Author.java
